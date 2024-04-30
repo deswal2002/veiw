@@ -1,0 +1,151 @@
+.black{
+    align-items: center;
+    background-color: #000000e6;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    
+    
+}
+.white{
+    width: 40rem;
+    height: 25rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px 0px #FFFFFF40;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.cross{
+    margin-left: 85%;
+    margin-top: 8%;
+    width: 5%;
+}
+.p1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    
+}
+.l1{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    margin-left: 10%;
+    
+}
+.i1{
+    width: 40%;
+    height: 4vh;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin-left:  15%;
+    padding-left: 2%;
+}
+.l2{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    margin-left: 10%;
+}
+.i2{
+    width: 40%;
+    height: 4vh;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    margin-left:  16%;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+.submit{
+    width: 15%;
+    height: 5vh;
+    background: #73ABFF;
+    align-content: center;
+    margin-left: 40%;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    margin-top: 8%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.error{
+    color: #FF0E0E;
+    font-size: 1rem;
+    margin-left: 15%;
+    position: absolute;
+}
+.eye1{
+    width: 1rem;
+}
+.eye{
+  position: absolute;
+  width: 1rem;
+  margin-top: 6%;
+  margin-left: 53%; 
+}
+.swiptory{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin-top:5%;
+    Gap:10%
+}
+@media only screen and (max-width: 500px){
+    .white{
+        width: 70%;
+        height: 22rem;
+        
+    }
+    .p1{
+        font-size: 1.4rem;
+        margin-left: 22%;
+        margin-top: 8%;
+    }
+    .i1{
+        width: 70%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    .i2{
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 0%;
+        
+    }
+    .submit{
+        width: 40%;
+        margin-left: 27%;
+    }
+    .cross{
+        width: 7%;
+    }
+    .eye{
+        margin-top: 10%;
+        margin-left: 35.8%; 
+    }
+    
+}

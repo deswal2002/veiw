@@ -1,0 +1,164 @@
+.black{
+    align-items: center;
+    background-color: #000000e6;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    
+}
+.story{
+    width: 20rem;
+    height: 75vh;
+    background-color: #000;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px 0 #ffffff40;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bar{
+    height: 5px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: grey ;
+}
+.si{
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    background: #FFFFFF;
+    animation: progress 8s ease-in-out forwards;
+    opacity: 0;
+    width: 100%;
+}
+.si_finished{
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    background: #FFFFFF;
+    opacity: 1;
+    width: 100%;
+    width: 100%;
+}
+.start{
+    width: 0%;
+    background: #FFFFFF;
+}
+.h1{
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 62%;
+}
+.h2{
+    position: absolute;
+    display: none;
+    width: 45%;
+    height: 62%;
+    margin-left: 55%;
+}
+.cross{
+    margin-left:1% ;
+}
+.crosslike{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 4%; 
+    margin-left: 5%
+}
+.share{
+    margin-left: 15vw
+}
+.heading{
+    color:#FFFFFF;
+    font-size:1.5rem;
+    font-weight:700;
+    margin-top:100%;
+    margin-left: 5%
+}
+.description{
+    color:#FFFFFF;
+    font-size:0.8rem;
+    font-weight:700;
+    margin-left: 5%
+}
+.heart{
+    width:1.5rem
+}
+.bookmark{
+    width:1rem
+}
+.no{
+    color:#FFFFFF;
+    margin-left:10%
+}
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .story{
+        width: 100vw;
+        height: 100vh;
+    }
+    .left{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .h1{
+        display: flex;
+    }
+    .h2{
+        display: flex;
+    }
+    .cross{
+        width: 60%;
+        margin-left: 5vw;
+    }
+    .crosslike{
+        margin-top: 0%;
+    }
+    .share{
+        width: 8%;
+        margin-left: 68vw;
+    }
+    .heading{
+        margin-top: 70vh;
+        margin-left: 2%;
+        font-size: 2rem;
+    }
+    .description{
+        margin-left: 3%;
+        font-size: 1rem;
+    }
+    .heart{
+        width: 2.5rem;
+    }
+    .bookmark{
+        width: 1.5rem;
+    }
+    .no{
+        font-size: 1.5rem;
+    }
+}
+

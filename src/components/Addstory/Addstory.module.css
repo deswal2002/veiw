@@ -1,0 +1,237 @@
+.black{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #000000E5;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    align-items: center;
+    background-color: #000000e6;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.white{
+    width: 45rem;
+    height: 75%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px 0px #FFFFFF40;
+    border-radius: 20px;
+}
+.cross{
+    margin-left: 92%;
+    margin-top: 2%;
+    width: 4%;
+}
+.slidenum{
+    font-size: 80%;
+    margin-left: 80%;
+}
+.slide{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    gap:2%;
+}
+.box{
+    width: 13%;
+    height: 8vh;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+.box1{
+    width: 13.5%;
+    height: 8vh;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px 0px #0000001A;
+    border-radius: 10px;
+    box-sizing: border-box;
+   display: flex;
+}
+.smallcross{
+    width:20%;
+}
+.input{
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    height: 4vh;
+    width: 50%;
+    margin-left: 20%;
+    padding-left: 2%;
+    border-radius: 1px;
+}
+.input2{
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    height: 4vh;
+    width: 50%;
+    margin-left: 22.5%;
+    padding-left: 2%;
+    border-radius: 1px;
+}
+.input3{
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    height: 4vh;
+    width: 52.5%;
+    margin-left: 18.5%;
+    padding-left: 2%;
+    border-radius: 1px;
+}
+.input4{
+    font-size: 1rem;
+    font-weight: 700;
+    font-style: DM Sans;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    height: 10vh;
+    resize: none;
+    vertical-align: text-top;
+    width: 50%;
+    margin-left: 15.5%;
+    padding-left: 2%;
+    border-radius: 1px;
+}
+.lab{
+    display: inline-block;
+}
+.newbox{
+    width: 8vw;
+    height: 5vh;
+    background: #7EFF73;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 100%;
+    font-weight: 700;
+    margin-left: 7%;
+}
+.newbox2{
+    width: 8vw;
+    height: 5vh;
+    background: #FF7373;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 100%;
+    font-weight: 700;
+    position:absolute;
+    margin-left: 35%;    
+}
+.newbox1{
+    width: 8vw;
+    height: 5vh;
+    background: #73ABFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 100%;
+    font-weight: 700;
+    margin-left: 5%;
+}
+.feed{
+    display: none;
+}
+.slid{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap:2%
+}
+@media only screen and (max-width: 700px){
+    .white{
+        width: 70vw;
+        height: 70%;
+    }
+    .slid{
+        flex-direction: column;
+        gap: 1vh;
+        margin-top: 2%;
+        width: 15vw;
+        position: absolute;
+    }
+    .slide{
+        gap: 10vh;
+        
+    }
+    .box{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .box1{
+        width: 100%;
+        margin-top: 2%;
+    }
+    .slidenum{
+        display: none;
+    }
+    .feed{
+        display: flex;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+    .head{
+        margin-left: 28%;
+        
+    }
+    .input{
+        margin-left: 28%;
+        width: 60%;
+    }
+    .input2{
+        margin-left: 28%;
+        width: 60%;
+    }
+    .input3{
+        margin-left: 28%;
+        width: 60%;
+    }
+    .input4{
+        margin-left: 28%;
+        width: 60%;
+    }
+    .newbox{
+        display: none;
+    }
+    .newbox1{
+        display: none;
+    }
+    .cross{
+        width: 8%;
+        margin-left: 88%;
+        margin-top: 4%;
+    }
+    .newbox2{
+        width: 20vw;
+        margin-left: 25%;
+    }
+}

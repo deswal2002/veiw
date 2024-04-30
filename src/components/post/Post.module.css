@@ -1,0 +1,97 @@
+.box{
+    width: 97vw;
+    margin-top: 3%;
+    width: 100%;
+}
+.text{
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+}
+.box1{
+    width: 20rem;
+    height: 25rem;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    background-image: url('https://vectorified.com/images/white-website-icon-png-26.png');
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-top: 95%;
+    margin-left: 6%;
+}
+.description{
+    font-size: 10%;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 9%;
+    margin-left: 6%;
+}
+.button{
+    background: #FF7373;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 20px ;
+    font-size: 100%;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-style: DM Sans;
+    color: #FFFFFF;   
+}
+.noStory{
+    color: #8E8E8E;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.edit{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    box-shadow: 0px 4px 15px 0px #00000026;
+    box-sizing: border-box;
+    background-color: 
+    #FFFFFF;
+    border-radius: 10px;
+    padding-left: 1%;
+    margin-left: 40%;
+
+}
+.storys{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%
+}
+.top{
+    margin-top: 2% ;
+    margin-left:5%
+}
+@media only screen and (max-width: 700px){
+    .storys{
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+    }
+    .text{
+        font-size: 1.5rem;
+    }
+    .top{
+        margin-left: 0%;
+    }
+    .button{
+        width: 25vw;
+        margin-top: 4%;
+    }
+}
