@@ -113,8 +113,8 @@
     color: #000000;
     font-style: DM Sans;
 }
-.logout{
-    background-color: hwb(0 45% 0%);
+.log{
+    background-color: rgb(255, 115, 115);
     width: 30%;
     height: 25%;
     border-radius: 20px ;
