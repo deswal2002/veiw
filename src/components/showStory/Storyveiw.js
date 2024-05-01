@@ -157,6 +157,7 @@ function Storyveiw() {
       dispatch(close_updates())
     }
   }
+  
 
   return (
     <div className={style.black}>
@@ -172,7 +173,7 @@ function Storyveiw() {
 
         <div className={style.crosslike}>
           <div onClick={() => exit()}><img src={whiteCross} className={style.cross} /></div>
-          <div onClick={() => navigator.clipboard.writeText(`http://localhost:3000/Story/${story._id}`)}><img src={share} className={style.share} /></div>
+          <div onClick={() => navigator.clipboard.writeText(`${window.location.href}Story/${story._id}`)}><img src={share} className={style.share} /></div>
         </div>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <div className={style.h1} onClick={() => back()}></div>

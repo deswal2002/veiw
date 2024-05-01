@@ -58,10 +58,10 @@ function Navbar() {
               <div ><img src={bookmark} className={style.bookimg} /></div>
               <div className={style.mark}>Bookmarks</div>
             </div>
-            <div className={style.log} onClick={() => deleteCookie()}>Logout</div>
+            <div className={style.log1} onClick={() => deleteCookie()}>Logout</div>
           </div> : <></>}
-        </> : <><div className={style.register} onClick={() => dispatch(update_reslog("Register"))}>Register Now</div>
-          <div className={style.sign} onClick={() => dispatch(update_reslog("Login"))}>Sign In</div>
+        </> : <><div className={style.register2} onClick={() => dispatch(update_reslog("Register"))}>Register Now</div>
+          <div className={style.sign2} onClick={() => dispatch(update_reslog("Login"))}>Sign In</div>
           <div>
             <img className={style.vector1} onClick={() => setresShow(true)} src={vector} />
 
