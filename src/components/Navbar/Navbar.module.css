@@ -16,7 +16,7 @@
     width: 5%;
 }
 .register{
-    background-color: #FF7373;
+    background-color: rgb(255, 115, 115);
     width: 10%;
     height: 80%;
     border-radius: 20px ;
@@ -60,7 +60,7 @@
     color: #FFFFFF;
 }
 .b2{
-    background-color: #FF7373;
+    background-color: rgb(255, 115, 115);
     width: 8%;
     height: 80%;
     border-radius: 20px ;
@@ -113,8 +113,8 @@
     color: #000000;
     font-style: DM Sans;
 }
-.logout{
-    background: #FF7373;
+.log{
+    background-color: rgb(255, 115, 115);
     width: 30%;
     height: 25%;
     border-radius: 20px ;
