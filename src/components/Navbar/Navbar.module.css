@@ -16,7 +16,7 @@
     width: 5%;
 }
 .register{
-    background-color: rgb(255, 115, 115);
+    background-color: #FF7373;
     width: 10%;
     height: 80%;
     border-radius: 20px ;
@@ -113,8 +113,8 @@
     color: #000000;
     font-style: DM Sans;
 }
-.log{
-    background-color: rgb(255, 115, 115);
+.logout{
+    background-color #FF7373;
     width: 30%;
     height: 25%;
     border-radius: 20px ;
