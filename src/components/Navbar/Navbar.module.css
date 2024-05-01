@@ -16,7 +16,7 @@
     width: 5%;
 }
 .register{
-    background: #FF7373;
+    background-color: #FF7373;
     width: 10%;
     height: 80%;
     border-radius: 20px ;
@@ -32,7 +32,7 @@
     align-items: center;
 }
 .sign{
-    background:#73ABFF;
+    background-color:#73ABFF;
     width: 9%;
     height: 80%;
     display: flex;
@@ -48,7 +48,7 @@
     color: #FFFFFF;
 }
 .b1{
-    background: #FF7373;
+    background-color: #FF7373;
     width: 8%;
     height: 80%;
     border-radius: 20px ;
@@ -60,7 +60,7 @@
     color: #FFFFFF;
 }
 .b2{
-    background: #FF7373;
+    background-color: #FF7373;
     width: 8%;
     height: 80%;
     border-radius: 20px ;
@@ -113,8 +113,8 @@
     color: #000000;
     font-style: DM Sans;
 }
-.logout{
-    background: #FF7373;
+.log{
+    background-color: #FF7373;
     width: 30%;
     height: 25%;
     border-radius: 20px ;
@@ -279,7 +279,7 @@
         align-items: center;  
         font-weight: 700;
     }
-    .logout{
+    .log{
         height: 10%;
         border-radius: 10px;
         

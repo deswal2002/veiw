@@ -20,7 +20,7 @@ function Story() {
     }
     run()
   },[])
-  console.log(storyId)
+  
   return (
     <>
     {useSelector((state) => state.File_save.check)?<Storyveiw/>:<></>}

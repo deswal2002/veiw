@@ -17,8 +17,7 @@ function Bookmark() {
     run()
   },[])
   
-  console.log(story)
-  console.log(bookmarks)  
+  
   
   return (
     <>

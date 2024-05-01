@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import style from './Post.module.css'
 import { useDispatch } from 'react-redux'
 import { update, update_addstory } from '../../FileSlice'
@@ -30,7 +30,7 @@ function Post(props) {
                   <p className={style.description} >{obj.description[0]}</p>
                   {userName === obj.userName && <div className={style.edit} onClick={() => dispatch(update_addstory(obj))}>
                     <div>
-                      <img src={box} />
+                      <img alt='box' src={box} />
                     </div>
                     <div><p>Edit</p></div>
                   </div>
@@ -41,7 +41,7 @@ function Post(props) {
                   <p className={style.description}>{obj.description[0]}</p>
                   {userName === obj.userName && <div className={style.edit} onClick={() => dispatch(update_addstory(obj))}>
                     <div>
-                      <img src={box} />
+                      <img alt='box' src={box} />
                     </div>
                     <div><p>Edit</p></div>
                   </div>}

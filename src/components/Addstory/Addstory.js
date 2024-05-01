@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import style from "./Addstory.module.css"
 import cross from '../../assests/Image/cross.svg'
 import Cookies from 'js-cookie';
@@ -85,7 +85,7 @@ function Addstory() {
     return (
         <div className={style.black}>
             <div className={style.white}>
-                <img src={cross} className={style.cross} onClick={() => dispatch(close_updates())} />
+                <img src={cross} alt='cross' className={style.cross} onClick={() => dispatch(close_updates())} />
                 <p className={style.slidenum} >Add upto 6 slides</p>
                 <p className={style.feed}> Add story to feed</p>
                 <div className={style.slide}>
@@ -94,7 +94,7 @@ function Addstory() {
                             <>
 
                                 {obj < 4 && (<div className={style.box} style={{ border: obj === slideNo ? "2px solid #73ABFF" : "" }} onClick={() => setslideNo(obj)}><p style={{ fontSize: "1rem", fontWeight: "700" }}>Slide {obj}</p></div>)}
-                                {obj > 3 && (<><div className={style.box1} style={{ border: obj === slideNo ? "2px solid #73ABFF" : "" }} onClick={() => setslideNo(obj)} ><div style={{ fontSize: "1rem", fontWeight: "700", marginLeft: "20%", marginTop: "20%" }}>Slide {obj}</div> <div className={style.smallcross} onClick={() => remove()}><img src={cross} style={{ width: "100%", marginLeft: "50%" }} onClick={() => remove()} /></div></div></>)}
+                                {obj > 3 && (<><div className={style.box1} style={{ border: obj === slideNo ? "2px solid #73ABFF" : "" }} onClick={() => setslideNo(obj)} ><div style={{ fontSize: "1rem", fontWeight: "700", marginLeft: "20%", marginTop: "20%" }}>Slide {obj}</div> <div className={style.smallcross} onClick={() => remove()}><img alt='cross' src={cross} style={{ width: "100%", marginLeft: "50%" }} onClick={() => remove()} /></div></div></>)}
 
                             </>
                         ))}
