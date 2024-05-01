@@ -113,7 +113,7 @@
     color: #000000;
     font-style: DM Sans;
 }
-.logout{
+.log{
     background-color #FF7373;
     width: 30%;
     height: 25%;
@@ -279,7 +279,7 @@
         align-items: center;  
         font-weight: 700;
     }
-    .logout{
+    .log{
         height: 10%;
         border-radius: 10px;
         
