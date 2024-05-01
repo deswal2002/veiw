@@ -16,7 +16,7 @@
     width: 5%;
 }
 .register{
-    background-color: #FF7373;
+    background-color: rgb(255,115,115);
     width: 10%;
     height: 80%;
     border-radius: 20px ;
@@ -114,7 +114,7 @@
     font-style: DM Sans;
 }
 .log{
-    background-color #FF7373;
+    background-color rgb(255,115,115);
     width: 30%;
     height: 25%;
     border-radius: 20px ;
