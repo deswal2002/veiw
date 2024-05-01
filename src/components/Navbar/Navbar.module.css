@@ -185,11 +185,11 @@
     .box{
         gap:10%
     }
-    .log1{
+    .login1{
         background-color: #FF7373;
         border-radius: 10px;
-        width: 30%;
-        height: 10%;
+        width: 35%;
+        height: 15%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -211,8 +211,8 @@
        
         position: absolute;
         width: 5%;
-        margin-left: 90%;
-        margin-bottom: 47%;
+        margin-left: 88%;
+        margin-bottom: 45%;
     }
     .b1{
         display: none;
@@ -277,7 +277,7 @@
         align-items: center;  
         font-weight: 700;
     }
-    .log{
+    .log1{
         height: 10%;
         border-radius: 10px;
         
